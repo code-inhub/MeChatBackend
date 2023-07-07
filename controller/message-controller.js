@@ -1,5 +1,5 @@
 // import { response } from "express";
-import Message from "../model/Message.js";
+import Message from "../model/message.js";
 import Conversation from "../model/conversation.js";
 
 export const newMessage = async (request, response) => {
